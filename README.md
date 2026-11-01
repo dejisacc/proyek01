@@ -20,7 +20,7 @@ Repositori ini berisi implementasi ujian/tugas Manajemen Basis Data yang mencaku
 2. **Perancangan Skema & Tabel:** Pembuatan skema `SALAM` dan tabel `mahasiswas` yang divalidasi menggunakan *Primary Key*, *Unique Constraint*, serta *Check Constraint*.
 3. **Manajemen User & Hak Akses (Role):** Implementasi arsitektur keamanan *database* (termasuk *Group Role*) dengan spesifikasi:
    - `bi_dev`: Hak akses *Read/Select-Only*.
-   - `backend_dev`: Hak akses penuh untuk modifikasi data (CRUD), tanpa wewenang modifikasi struktur objek.
+   - `backend_dev`: Hak akses penuh untuk modifikasi data (CRUD), tanpa wewenang modifikasi/drop struktur objek.
    - `data_engineer`: Wewenang administratif penuh untuk *CREATE*, *MODIFY*, *DROP* *objects* sekaligus CRUD seluruh tabel.
 
 ## ⚙️ Persyaratan Sistem (*Prerequisites*)
