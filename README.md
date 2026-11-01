@@ -9,7 +9,7 @@
 
 ## 📄 Laporan Penugasan Lengkap
 Dokumentasi langkah demi langkah (*screenshot* Docker Desktop, pengujian koneksi di pgAdmin4 & DBeaver, serta bukti *query constraint* dan hak akses *role* berjalan dengan sukses) telah disusun dalam laporan berikut:  
-👉 **[Klik di Sini untuk Membuka Laporan Tugas (PDF/Google Docs) 🔗]https://docs.google.com/document/d/1CJLrpVcNSFv_AQ7EVV_OamStFiDJmbYm05vtpVKrmOU/edit?usp=sharing**
+👉 **[Klik di Sini untuk Membuka Laporan Tugas (PDF/Google Docs) 🔗](https://docs.google.com/document/d/1CJLrpVcNSFv_AQ7EVV_OamStFiDJmbYm05vtpVKrmOU/edit?usp=sharing)**
 
 
 ---
