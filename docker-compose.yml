@@ -1,0 +1,32 @@
+version: '3.8'
+services:
+  postgres_db:
+    image: postgres:15-alpine
+    container_name: postgres_FirdaAzzahra
+    env_file:
+      - .env
+    ports:
+      - "22059:5432" 
+    networks:
+      - db-network
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+
+  pgadmin_ui:
+    image: dpage/pgadmin4
+    container_name: pgadmin_FirdaAzzahra
+    env_file:
+      - .env
+    ports:
+      - "44059:80" 
+    depends_on:
+      - postgres_db
+    networks:
+      - db-network
+
+networks:
+  db-network:
+    driver: bridge
+
+volumes:
+  pgdata:
