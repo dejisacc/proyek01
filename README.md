@@ -32,7 +32,7 @@ Repositori ini berisi implementasi ujian/tugas Manajemen Basis Data yang mencaku
 ## 🚀 Langkah Menjalankan Service
 1. *Clone* repositori ini ke komputer lokal:
    ```bash
-   git clone [link repo ini]
+   git clone https://github.com/dejisacc/proyek01.git
    ```
 2. Ubah nama file `.env.example` menjadi `.env` lalu sesuaikan kredensial di dalamnya:
    ```bash
@@ -46,3 +46,5 @@ Repositori ini berisi implementasi ujian/tugas Manajemen Basis Data yang mencaku
 4. Akses Database
    pgAdmin4 (Internal Docker): Buka browser dan akses http://localhost:44XXX (sesuai dengan 3 digit akhir nim) Login menggunakan kredensial email dan password di .env.  
    DBeaver (Eksternal Docker): Buat koneksi PostgreSQL baru dengan Host localhost, Port 22XXX, (sesuai dengan 3 digit akhir nim) serta username dan password yang telah disesuaikan di .env.
+
+5. jalankan query sql
